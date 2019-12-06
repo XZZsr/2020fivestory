@@ -11,8 +11,9 @@
 
 ## 微信版
 
-![image](https://cloud-minapp-29742.cloud.ifanrusercontent.com/1id2JKst8fw8OdPV.png)
+
+![avatar](https://cloud-minapp-29742.cloud.ifanrusercontent.com/1id2JKst8fw8OdPV.png)
 
 ## qq版
 
-![image](https://cloud-minapp-29742.cloud.ifanrusercontent.com/1id2Vb0PYdXgyPiW.png)
+![avatar](https://cloud-minapp-29742.cloud.ifanrusercontent.com/1id2Vb0PYdXgyPiW.png)
