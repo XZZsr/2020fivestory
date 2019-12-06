@@ -1,0 +1,122 @@
+/**app.wxss**/
+
+page {
+    font-family: sans-serif;
+    color: #333;
+}
+/*兼容版本的弹性盒子写法*/
+
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
+}
+
+/*垂直居中*/
+
+.flex-box {
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+/*均匀分列每个子集元素间距*/
+
+.flex-justify {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+/*水平居中*/
+
+.flex-center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+/*弹性盒子剩余的宽度*/
+
+.flex-one {
+    flex: 1;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+/*设置子集元素垂直排列兼容*/
+
+.flex-direction {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -webkit-box-orient: vertical;
+}
+
+/*定位居中*/
+
+.position-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/*超出显示1行*/
+
+.display-row1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*超出显示两行*/
+
+.display-row2 {
+    overflow: hidden;
+    display: -webkit-flex;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+/* 清除浮动 */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+/*超出显示三行*/
+
+.display-row3 {
+    overflow: hidden;
+    display: -webkit-flex;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+/*超出显示四行*/
+
+.display-row4 {
+    overflow: hidden;
+    display: -webkit-flex;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+/* active颜色 */
+
+.enter-active:active {
+    background-image: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+}

@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+/* miniprogram/pages/mine/mine.wxss */
+
+page {
+  background: #f5f5f5;
+}
+button{
+  padding: 0;
+}
+.img {
+  margin: 75rpx auto 40rpx auto;
+  display: block;
+  width: 600rpx;
+  height: 480rpx;
+  border-radius: 20rpx;
+}
+.startBtn{
+  margin: 30rpx auto;
+  width: 500rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #ffffff;
+}
+.btn1 .startBtn{
+  background: #00A7FE;
+}
+.btn2 .startBtn{
+  background: #08CE5B;
+}
+.common{
+  background: rgba(0, 167, 254, 0.8);
+}
+.default{
+  background: rgba(8, 206, 94, 0.8);
+}

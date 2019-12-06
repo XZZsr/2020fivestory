@@ -1,0 +1,28 @@
+/**index.wxss**/
+
+/* miniprogram/pages/mine/mine.wxss */
+
+.file{
+  margin: 75rpx auto 40rpx auto;
+  display: block;
+  width: 600rpx;
+  height: 900rpx;
+}
+.control {
+  margin-top: 50rpx;
+}
+.btn{
+  margin: 30rpx auto;
+  padding: 0;
+  width: 500rpx;
+  line-height: 72rpx;
+  font-size: 32rpx;
+  color: #ffffff;
+}
+.btn-set {
+  background: #00A7FE;
+}
+
+.btn-download {
+  background: #08CE5B;
+}

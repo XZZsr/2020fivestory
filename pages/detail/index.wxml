@@ -1,0 +1,10 @@
+<navigationBar back="true" title="2020会发生的五件事"></navigationBar>
+<HeaderTips show="{{show}}"></HeaderTips>
+<view class="detail">
+   <image src="{{file}}" class="file"></image>
+   <view class="control">
+        <button class="btn btn-set" bindtap="saveImg">保存图片</button>
+        <button class="btn btn-download" bindtap="sendFriend">发给好友</button>
+   </view>
+   <ad unit-id="c4027ddc96d52b781359304b0ba619d8"></ad>
+</view>

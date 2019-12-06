@@ -1,0 +1,20 @@
+<navigationBar title="2020会发生的五件事"></navigationBar>
+<HeaderTips show="{{show}}"></HeaderTips>
+{{isAuth?'':''}}
+<view class="index">
+    <image class="img" src="../../static/imgs/share.png"></image>
+    <view class="btn btn1">
+        <button class="startBtn" hover-class="common" wx:if="{{!isAuth}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+            开始预测
+        </button>
+        <button class="startBtn" hover-class="common" wx:if="{{isAuth}}" bindtap="start">开始预测</button>
+    </view>
+    <view class="btn btn2">
+        <button class="startBtn" hover-class="default" wx:if="{{!isAuth}}" open-type="getUserInfo" bindgetuserinfo="aiGetUserInfo">
+            智能预测
+        </button>
+        <button class="startBtn" hover-class="default" wx:if="{{isAuth}}" bindtap="aiStart">智能预测</button>
+    </view>
+</view>
+<ad unit-id="7de3cf659046d2c8344e414ebfd9cb11"></ad>
+<canvas canvas-id="export" style="position:absolute;left:-9999rpx;width: 700px;height: 1050px;" class="export-canvas"></canvas>
